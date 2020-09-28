@@ -22,7 +22,6 @@ func delete_extra_space(s string) string {
 
 func checkErr(err error) {
 	if err != nil {
-		fmt.Println("网络接口故障，请稍后重试")
 		return
 	}
 }
